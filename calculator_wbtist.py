@@ -18,7 +18,7 @@ def calculator_app():
     while not valid_operation:
         operation = input('Choose operation? ( - + / * ) : ')
         if operation not in operations:
-            print(f'{open} is not valid operation')
+            print(f'{operation} is not valid operation')
         else:
             valid_operation = True
     # Ask for 2nd number
